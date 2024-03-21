@@ -40,6 +40,10 @@ body {
 
 .header .container {
     display: flex;
+    align-items: center;
+}
+
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -83,6 +87,7 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0;
+    display: block;
 }
 
 .header-nav-item:focus,
@@ -92,6 +97,7 @@ body {
 
 address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .adress-list {
@@ -107,6 +113,9 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
+    display: block;
+
 }
 
 .address-item:hover,
@@ -127,6 +136,10 @@ address {
     letter-spacing: 0.02em;
     color: white;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+
 }
 
 .sectionone-button {
@@ -143,7 +156,8 @@ address {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: white;
-
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
 
 }
@@ -326,4 +340,5 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
